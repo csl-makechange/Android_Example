@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta content="yes" name="apple-touch-fullscreen" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>首页</title>
+		<link rel="stylesheet" href="../css/mui.min.css" />
+		<script src="../js/requirejs2.0.min.js"></script>
+		<script src="../js/requirejs.config.js"></script>
+	</head>
+
+	<body style="background: #fff;">
+	</body>
+	<script>
+		requirejs.config({
+			"baseUrl": "../",
+		});
+		require(['mui', "userInfo"], function() {
+			var $userInfo = require('userInfo');
+			mui.init();
+			//获取服务器地址Url
+			function getAppWebUrl() {
+				var url = localStorage.getItem("$.ibo.AppWebUrl");
+				if(url == null || url == "" || url == undefined || url == "undefined") {
+					$.ajax({
+						type: "GET",
+						async: false,
+						url: $.ibo.AppWebUrl + "/PublicUserService/OperateService.svc/ChooseIboAppWebUrl",
+						data: null,
+						contentType: "application/json",
+						dataType: "json",
+						success: function(res) {
+							console.log("success");
+							var dataJson = $.parseJSON(res);
+							var objUrl = $.ibo.AppWebUrl;
+							if(dataJson && dataJson.ResFlag == $.ibo.ResFlag.Success) {
+								var objData = dataJson.ResObj;
+								objUrl = objData.IboAppWebUrl;
+							}
+							console.log("objUrl:"+objUrl);
+							localStorage.setItem("$.ibo.AppWebUrl", objUrl);
+						},
+						error: function(err) {
+							console.log("error");
+							localStorage.setItem("$.ibo.AppWebUrl", $.ibo.AppWebUrl);
+						}
+					});
+				}
+			}
+			//跳转页面
+			function loadView(type) {
+				var id = "";
+				var loadurl = "";
+				if(type == 1) { //跳转主页面
+					id = "im_index";
+					loadurl = "IM/index.html";
+				} else if(type == 2) { //跳转登录页
+					loadurl = "login/index.html";
+				} else if(type == 3) { //跳转账号保护
+					loadurl = "Me/MeSafe.html?opt=2&IsHandPwd=1";
+				} else if(type == 4) { //引导页
+					loadurl = "login/StartGuid.html";
+				}
+				var view = mui.openWindow({
+					id: (id != "" ? id : loadurl),
+					url: loadurl,
+					styles: {
+						popGesture: 'none'
+					},
+					waiting: {
+						autoShow: false
+					}
+				});
+				if(type != 4) {
+					view.addEventListener("show", function() {
+						plus.navigator.closeSplashscreen();
+					});
+				}
+			}
+			mui.plusReady(function() {
+				getAppWebUrl();
+				localStorage.setItem("deviceid", plus.device.uuid);
+				plus.runtime.getProperty(plus.runtime.appid, function(inf) {
+					var info = plus.push.getClientInfo();
+					localStorage.setItem("clientId", info.clientid);
+				});
+				if(localStorage.getItem("$.guidflag")) {
+					if($userInfo.isLogin()) {
+						plus.nativeUI.showWaiting("跳转中...");
+						var time = window.setTimeout(function() {
+							plus.nativeUI.closeWaiting();
+							loadView(2);
+						}, 1000 * 30);
+						$userInfo.checkLogin(function(obj) {
+							window.clearTimeout(time);
+							plus.nativeUI.closeWaiting();
+							if(obj && obj.ResFlag == $.ibo.ResFlag.Success) {
+								if($userInfo.isProtect()) {
+									$userInfo.checkProtect(localStorage.getItem("deviceid"), function(obj) {
+										if($.ibo.ResFlag.Success == obj.ResFlag) {
+											if(obj.ResObj && obj.ResObj.length > 0) {
+												if($userInfo.isHandPwd()) {
+													loadView(3);
+												} else {
+													loadView(1);
+												}
+											} else {
+												loadView(2);
+											}
+										} else {
+											loadView(1);
+										}
+									});
+								} else if($userInfo.isHandPwd()) {
+									loadView(3);
+								} else {
+									loadView(1);
+								}
+							} else {
+								loadView(2);
+							}
+						});
+					} else {
+						loadView(2);
+					}
+				} else {
+					loadView(4);
+				}
+			});
+		});
+	</script>
+
+</html>

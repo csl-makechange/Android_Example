@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<link href="../css/base.css" rel="stylesheet" />
+		<link href="../css/common.css" rel="stylesheet" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<script src="../js/requirejs2.0.min.js"></script>
+		<script src="../js/requirejs.config.js"></script>
+		<style>
+			.ibo-ul {
+				position: relative;
+				margin-top: 0;
+				margin-bottom: 0;
+				padding-left: 0;
+				list-style: none;
+			}
+			/*.ibo-releaselist {
+				position: relative;
+				margin: .25rem 0;
+				background: #fff;
+				border-radius: .1rem;
+			}
+			
+			.ibo-releaselist-header {
+				display: block;
+				padding: 0 0.8rem;
+				padding-top: 0.5rem;
+				position: relative;
+				min-height: 2.2rem;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				-webkit-box-pack: justify;
+				-ms-flex-pack: justify;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+				width: 100%;
+			}
+			
+			.release-title {
+				font-size: 0.8rem;
+				color: #131313;
+			}
+			
+			.ibo-releaselist-content {
+				position: relative;
+				padding: 0 0.8rem;
+				padding-top: 0.45rem;
+				width: 100%;
+				overflow: hidden;
+			}
+			
+			.ibo-releaselist-content .release-content {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				min-height: 1.8rem;
+				width: 100%;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				-webkit-box-pack: justify;
+				-ms-flex-pack: justify;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+			}
+			
+			.ibo-releaselist-content .release-content-left {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				width: 60%;
+				font-size: 0.55rem;
+				color: #999999;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			
+			.ibo-releaselist-content .release-content-left span {
+				display: inline-block;
+				width: 50%;
+			}
+			
+			.ibo-releaselist-content .release-content-right {
+				position: relative;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				width: 40%;
+				font-size: 0.7rem;
+				justify-content: flex-end;
+				-webkit-justify-content: flex-end;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			
+			.ibo-releaselist-footer {
+				position: relative;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				min-height: 2rem;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				padding: 0 0.8rem;
+				-webkit-box-pack: justify;
+				-ms-flex-pack: justify;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+				width: 100%;
+			}
+			.ibo-releaselist-footer-end{
+				-webkit-justify-content:flex-end;
+				justify-content: flex-end;
+			}
+			
+			.ibo-releaselist-footer:before {
+				content: '';
+				position: absolute;
+				left: 0.8rem;
+				top: 0;
+				right: 0.8rem;
+				height: 1px;
+				background: #CDCDCD;
+			}
+			
+			.ibo-releaselist-footer a {
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				font-size: 0.6rem;
+				color: #666666;
+			}
+			
+			.ibo-releaselist-footer a .iconfont {
+				font-size: 0.7rem;
+				margin-right: 0.45rem;
+			}*/
+			.unsubmit{
+				color: #999999;
+			}
+			.unpass{
+				color: #F56153;
+			}
+			.pass{
+				color: #008CF0;
+			}
+			.check{
+				color:#666666;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">测试页面</h1>
+		</header>
+		<div class="mui-content">
+			<div class="searchbar" style="top: 2.2rem;">
+				<a class="searchbar-cancel">取消</a>
+				<div class="search-input mui-input-row">
+					<label class="iconfont icon-search" for="search"></label>
+					<form onsubmit="return true">
+						<input id="search" type="search" placeholder='请输入标题关键字' class="mui-input-clear" />
+					</form>
+				</div>
+			</div>
+			<ul class="ibo-ul">
+				<!--<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#999999">未提交</span>
+							</div>
+						</div>
+					</div>
+					<div class="ibo-releaselist-footer">
+						<a><span class="icon-edit iconfont"></span>编辑</a>
+						<a><span class="icon-submit iconfont"></span>提交</a>
+						<a><span class="icon-delete-d iconfont"></span>删除</a>
+					</div>
+				</li>
+				<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#f56153">未通过</span>
+							</div>
+						</div>
+					</div>
+					<div class="ibo-releaselist-footer">
+						<a><span class="icon-edit iconfont"></span>编辑</a>
+						<a><span class="icon-submit iconfont"></span>提交</a>
+						<a><span class="icon-delete-d iconfont"></span>删除</a>
+					</div>
+				</li>
+				<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#008bef">已通过</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#666666">审核中</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#999999">草稿</span>
+							</div>
+						</div>
+					</div>
+					<div class="ibo-releaselist-footer">
+						<a><span class="icon-edit iconfont"></span>编辑</a>
+						<a><span class="icon-submit iconfont"></span>发布</a>
+						<a><span class="icon-delete-d iconfont"></span>删除</a>
+					</div>
+				</li>
+				<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span><span>csl</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#666666">待审核</span>
+							</div>
+						</div>
+					</div>
+					<div class="ibo-releaselist-footer">
+						<a><span class="icon-pass iconfont"></span>通过</a>
+						<a><span class="icon-refuse iconfont"></span>拒绝</a>
+					</div>
+				</li>
+				<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span><span>csl</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#F56153">未通过</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="ibo-releaselist">
+					<div class="ibo-releaselist-header">
+						<div class="release-title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+					</div>
+					<div class="ibo-releaselist-content">
+						<div class="release-content">
+							<div class="release-content-left">
+								<span>2017-06-07 16:00</span><span>csl</span>
+							</div>
+							<div class="release-content-right">
+								<span style="color:#008CF0">已通过</span>
+							</div>
+						</div>
+					</div>
+					<div class="ibo-releaselist-footer ibo-releaselist-footer-end">
+						<a><span class="icon-delete-d iconfont"></span>删除</a>
+					</div>
+				</li>-->
+			</ul>
+		</div>
+		<script type="text/javascript">
+			requirejs.config({
+				"baseUrl": "../",
+			});
+			require(['common', "module-list"], function() {
+				var $list = require("module-list");
+				var Listdata1 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						status: {
+							value: "未提交",
+							classname:"unsubmit"
+						}
+					},
+					releasefooter: {
+						wtneed: true,
+						valueEvent: [{
+							value: "编辑",
+							classname: "icon-edit iconfont"
+						},{
+							value: "提交",
+							classname: "icon-submit iconfont"
+						},{
+							value: "删除",
+							classname: "icon-delete-d iconfont"
+						}]
+					},
+					freeattr: [
+						['ID', 1],
+					],
+				};
+				var Listdata2 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						status: {
+							value: "未通过",
+							classname:"unpass"
+						}
+					},
+					releasefooter: {
+						wtneed: true,
+						valueEvent: [{
+							value: "编辑",
+							classname: "icon-edit iconfont"
+						},{
+							value: "提交",
+							classname: "icon-submit iconfont"
+						},{
+							value: "删除",
+							classname: "icon-delete-d iconfont"
+						}]
+					},
+					freeattr: [
+						['ID', 2],
+					],
+				};
+				var Listdata3 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						status: {
+							value: "已通过",
+							classname:"pass"
+						}
+					},
+					releasefooter: {
+						wtneed: false
+					},
+					freeattr: [
+						['ID', 3],
+					],
+				};
+				var Listdata4 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						status: {
+							value: "审核中",
+							classname:"check"
+						}
+					},
+					releasefooter: {
+						wtneed: false
+					},
+					freeattr: [
+						['ID', 4],
+					],
+				};
+				var Listdata5 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						name: {
+							value: "csl",
+						},
+						status: {
+							value: "草稿",
+							classname:"unsubmit"
+						}
+					},
+					releasefooter: {
+						wtneed: true,
+						valueEvent: [{
+							value: "编辑",
+							classname: "icon-edit iconfont"
+						},{
+							value: "提交",
+							classname: "icon-submit iconfont"
+						},{
+							value: "删除",
+							classname: "icon-delete-d iconfont"
+						}]
+					},
+					freeattr: [
+						['ID', 5],
+					],
+				};
+				var Listdata6 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						name: {
+							value: "csl",
+						},
+						status: {
+							value: "待审核",
+							classname:"check"
+						}
+					},
+					releasefooter: {
+						wtneed: true,
+						valueEvent: [{
+							value: "通过",
+							classname: "icon-pass iconfont"
+						},{
+							value: "拒绝",
+							classname: "icon-refuse iconfont"
+						}]
+					},
+					freeattr: [
+						['ID', 6],
+					],
+				};
+				var Listdata7 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						name: {
+							value: "csl",
+						},
+						status: {
+							value: "未通过",
+							classname:"unpass"
+						}
+					},
+					releasefooter: {
+						wtneed: false
+					},
+					freeattr: [
+						['ID', 7],
+					],
+				};
+				var Listdata8 = {
+					releaseheader: {
+						wtneed: true,
+						title: {
+							value: "标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+						}
+					},
+					releasecontent: {
+						wtneed: true,
+						time: {
+							value: "2017-06-14 15:30",
+						},
+						name: {
+							value: "csl",
+						},
+						status: {
+							value: "已通过",
+							classname:"pass"
+						}
+					},
+					releasefooter: {
+						wtneed: true,
+						classname: "ibo-releaselist-footer-end",
+						valueEvent: [{
+							value: "删除",
+							classname: "icon-delete-d iconfont"
+						}]
+					},
+					freeattr: [
+						['ID', 8],
+					],
+				};
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata1));
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata2));
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata3));
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata4));
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata5));
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata6));
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata7));
+				$(".ibo-ul").append($list.modulelist_releaselist(Listdata8));
+			});
+		</script>
+	</body>
+
+</html>

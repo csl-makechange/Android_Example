@@ -1,0 +1,579 @@
+{
+  "views/login/loginCode.html": {
+    "href": "views/login/loginCode.html",
+    "resources": [],
+    "priority": 0
+  },
+  "views/login/createCompany.html": {
+    "href": "views/login/createCompany.html",
+    "resources": [],
+    "priority": 1
+  },
+  "views/login/createAndLogin.html": {
+    "href": "views/login/createAndLogin.html",
+    "resources": [],
+    "priority": 2
+  },
+  "views/login/loginReg.html": {
+    "href": "views/login/loginReg.html",
+    "resources": [],
+    "priority": 3
+  },
+  "views/login/index.html": {
+    "href": "views/login/index.html",
+    "resources": [],
+    "priority": 4
+  },
+  "views/login/Rigister.html": {
+    "href": "views/login/Rigister.html",
+    "resources": [],
+    "priority": 5
+  },
+  "views/login/EnterName.html": {
+    "href": "views/login/EnterName.html",
+    "resources": [],
+    "priority": 6
+  },
+  "views/IM/EmpDetail.html": {
+    "href": "views/IM/EmpDetail.html",
+    "resources": [],
+    "priority": 8
+  },
+  "views/IM/groupComm.html": {
+    "href": "views/IM/groupComm.html",
+    "resources": [],
+    "priority": 9
+  },
+  "views/IM/groupEmpSet.html": {
+    "href": "views/IM/groupEmpSet.html",
+    "resources": [],
+    "priority": 10
+  },
+  "views/IM/GroupSetting.html": {
+    "href": "views/IM/GroupSetting.html",
+    "resources": [],
+    "priority": 12
+  },
+  "views/IM/ChatFile.html": {
+    "href": "views/IM/ChatFile.html",
+    "resources": [],
+    "priority": 15
+  },
+  "views/IM/EmpSetting.html": {
+    "href": "views/IM/EmpSetting.html",
+    "resources": [],
+    "priority": 16
+  },
+  "views/IM/SettRemarks.html": {
+    "href": "views/IM/SettRemarks.html",
+    "resources": [],
+    "priority": 18
+  },
+  "views/IM/GroupChat.html": {
+    "href": "views/IM/GroupChat.html",
+    "resources": [],
+    "refer": [],
+    "priority": 9
+  },
+  "views/Me/AppAdmin.html": {
+    "href": "views/Me/AppAdmin.html",
+    "resources": [],
+    "refer": [],
+    "priority": 9
+  },
+  "views/IM/chatComm.html": {
+    "href": "views/IM/chatComm.html",
+    "resources": [],
+    "priority": 10
+  },
+  "views/IM/chatSetting.html": {
+    "href": "views/IM/chatSetting.html",
+    "resources": [],
+    "refer": [],
+    "priority": 10
+  },
+  "views/IM/IMdialog.html": {
+    "href": "views/IM/IMdialog.html",
+    "resources": [],
+    "refer": [],
+    "priority": 7
+  },
+  "views/Micromarketing/AddMarketing.html": {
+    "href": "views/Micromarketing/AddMarketing.html",
+    "resources": [],
+    "priority": 9
+  },
+  "views/Micromarketing/EditCard.html": {
+    "href": "views/Micromarketing/EditCard.html",
+    "resources": [],
+    "priority": 10
+  },
+  "views/Micromarketing/MyCard.html": {
+    "href": "views/Micromarketing/MyCard.html",
+    "resources": [],
+    "refer": [],
+    "priority": 10
+  },
+  "views/Micromarketing/MarketingDetail.html": {
+    "href": "views/Micromarketing/MarketingDetail.html",
+    "resources": [],
+    "refer": [],
+    "priority": 8
+  },
+  "views/mkt/iframe.html": {
+    "href": "views/mkt/iframe.html",
+    "resources": [],
+    "priority": 9
+  },
+  "views/IM/AllProcess.html": {
+    "href": "views/IM/AllProcess.html",
+    "resources": [],
+    "refer": [],
+    "priority": 9
+  },
+  "views/WorkDaily/DailyEdit.html": {
+    "href": "views/WorkDaily/DailyEdit.html",
+    "resources": [],
+    "priority": 11
+  },
+  "views/WorkDaily/DailyDetail.html": {
+    "href": "views/WorkDaily/DailyDetail.html",
+    "resources": [],
+    "refer": [],
+    "priority": 10
+  },
+  "views/Me/MePerChange.html": {
+    "href": "views/Me/MePerChange.html",
+    "resources": [],
+    "priority": 12
+  },
+  "views/Me/MeSystem.html": {
+    "href": "views/Me/MeSystem.html",
+    "resources": [],
+    "refer": [],
+    "priority": 11
+  },
+  "views/Me/feedback.html": {
+    "href": "views/Me/feedback.html",
+    "resources": [],
+    "priority": 12
+  },
+  "views/Me/MeGesturePsd.html": {
+    "href": "views/Me/MeGesturePsd.html",
+    "resources": [],
+    "priority": 13
+  },
+  "views/Me/MeChangePsd.html": {
+    "href": "views/Me/MeChangePsd.html",
+    "resources": [],
+    "priority": 14
+  },
+  "views/Me/MeChangePh.html": {
+    "href": "views/Me/MeChangePh.html",
+    "resources": [],
+    "priority": 15
+  },
+  "views/Me/MeAccountSafe.html": {
+    "href": "views/Me/MeAccountSafe.html",
+    "resources": [],
+    "priority": 16
+  },
+  "views/Me/MeNewPh.html": {
+    "href": "views/Me/MeNewPh.html",
+    "resources": [],
+    "priority": 18
+  },
+  "views/Me/MeCode.html": {
+    "href": "views/Me/MeCode.html",
+    "resources": [],
+    "priority": 20
+  },
+  "views/Me/agreement.html": {
+    "href": "views/Me/agreement.html",
+    "resources": [],
+    "refer": [],
+    "priority": 14
+  },
+  "views/Me/MeAbout.html": {
+    "href": "views/Me/MeAbout.html",
+    "resources": [],
+    "refer": [],
+    "priority": 14
+  },
+  "views/Me/quitEnterprise.html": {
+    "href": "views/Me/quitEnterprise.html",
+    "resources": [],
+    "refer": [],
+    "priority": 15
+  },
+  "views/Me/enterprise.html": {
+    "href": "views/Me/enterprise.html",
+    "resources": [],
+    "priority": 17
+  },
+  "views/Me/MeAccount.html": {
+    "href": "views/Me/MeAccount.html",
+    "resources": [],
+    "priority": 18
+  },
+  "views/Me/MePerson.html": {
+    "href": "views/Me/MePerson.html",
+    "resources": [],
+    "priority": 19
+  },
+  "views/Me/index.html": {
+    "href": "views/Me/index.html",
+    "resources": [],
+    "refer": [],
+    "priority": 11
+  },
+  "views/mkt/order-view-deta.html": {
+    "href": "views/mkt/order-view-deta.html",
+    "resources": [],
+    "priority": 13
+  },
+  "views/mkt/order-linkdt.html": {
+    "href": "views/mkt/order-linkdt.html",
+    "resources": [],
+    "priority": 14
+  },
+  "views/mkt/order-subdt.html": {
+    "href": "views/mkt/order-subdt.html",
+    "resources": [],
+    "refer": [],
+    "priority": 12
+  },
+  "views/address-list/addressChild.html": {
+    "href": "views/address-list/addressChild.html",
+    "resources": [],
+    "priority": 14
+  },
+  "views/address-list/organChart.html": {
+    "href": "views/address-list/organChart.html",
+    "resources": [],
+    "refer": [],
+    "priority": 15
+  },
+  "views/address-list/addDept.html": {
+    "href": "views/address-list/addDept.html",
+    "resources": [],
+    "refer": [],
+    "priority": 15
+  },
+  "views/address-list/MyGroup.html": {
+    "href": "views/address-list/MyGroup.html",
+    "resources": [],
+    "priority": 16
+  },
+  "views/address-list/PhoneUser.html": {
+    "href": "views/address-list/PhoneUser.html",
+    "resources": [],
+    "refer": [],
+    "priority": 18
+  },
+  "views/address-list/PhoneInvitate.html": {
+    "href": "views/address-list/PhoneInvitate.html",
+    "resources": [],
+    "priority": 19
+  },
+  "views/address-list/inviteUser.html": {
+    "href": "views/address-list/inviteUser.html",
+    "resources": [],
+    "refer": [],
+    "priority": 18
+  },
+  "views/address-list/EmpDetails.html": {
+    "href": "views/address-list/EmpDetails.html",
+    "resources": [],
+    "priority": 19
+  },
+  "views/address-list/index_address.html": {
+    "href": "views/address-list/index_address.html",
+    "resources": [],
+    "refer": [],
+    "priority": 13
+  },
+  "views/flows/approvaldetial.html": {
+    "href": "views/flows/approvaldetial.html",
+    "priority": 14
+  },
+  "views/mkt/media-detail.html": {
+    "href": "views/mkt/media-detail.html",
+    "resources": [],
+    "priority": 16
+  },
+  "views/mkt/pre-order.html": {
+    "href": "views/mkt/pre-order.html",
+    "resources": [],
+    "refer": [],
+    "priority": 17
+  },
+  "views/mkt/packagedt.html": {
+    "href": "views/mkt/packagedt.html",
+    "resources": [],
+    "refer": [],
+    "priority": 18
+  },
+  "views/mkt/meindustry.html": {
+    "href": "views/mkt/meindustry.html",
+    "resources": [],
+    "refer": [],
+    "priority": 15
+  },
+  "views/mkt/writingdetial.html": {
+    "href": "views/mkt/writingdetial.html",
+    "resources": [],
+    "priority": 16
+  },
+  "views/mkt/cmpdynamic.html": {
+    "href": "views/mkt/cmpdynamic.html",
+    "resources": [],
+    "refer": [],
+    "priority": 17
+  },
+  "views/mkt/enterprise-edit.html": {
+    "href": "views/mkt/enterprise-edit.html",
+    "resources": [],
+    "priority": 18
+  },
+  "views/mkt/enterprise-mrst.html": {
+    "href": "views/mkt/enterprise-mrst.html",
+    "resources": [],
+    "refer": [],
+    "priority": 18
+  },
+  "views/mkt/order-cmpdt.html": {
+    "href": "views/mkt/order-cmpdt.html",
+    "resources": [],
+    "priority": 20
+  },
+  "views/mkt/order-cmpwt.html": {
+    "href": "views/mkt/order-cmpwt.html",
+    "resources": [],
+    "refer": [],
+    "priority": 19
+  },
+  "views/mkt/et-wtcmt-list.html": {
+    "href": "views/mkt/et-wtcmt-list.html",
+    "resources": [],
+    "priority": 20
+  },
+  "views/mkt/enterprise-writings.html": {
+    "href": "views/mkt/enterprise-writings.html",
+    "resources": [],
+    "refer": [],
+    "priority": 20
+  },
+  "views/mkt/enterprise-sc.html": {
+    "href": "views/mkt/enterprise-sc.html",
+    "resources": [],
+    "priority": 21
+  },
+  "views/mkt/enterprisecoll.html": {
+    "href": "views/mkt/enterprisecoll.html",
+    "resources": [],
+    "priority": 22
+  },
+  "views/mkt/enterpriseset.html": {
+    "href": "views/mkt/enterpriseset.html",
+    "resources": [],
+    "refer": [],
+    "priority": 21
+  },
+  "views/mkt/enterprise.html": {
+    "href": "views/mkt/enterprise.html",
+    "resources": [],
+    "refer": [],
+    "priority": 20
+  },
+  "views/mkt/wx-detail.html": {
+    "href": "views/mkt/wx-detail.html",
+    "resources": [],
+    "priority": 22
+  },
+  "views/mkt/sina-detail.html": {
+    "href": "views/mkt/sina-detail.html",
+    "resources": [],
+    "priority": 23
+  },
+  "views/mkt/sina.html": {
+    "href": "views/mkt/sina.html",
+    "resources": [],
+    "refer": [],
+    "priority": 21
+  },
+  "views/mkt/message.html": {
+    "href": "views/mkt/message.html",
+    "resources": [],
+    "priority": 22
+  },
+  "views/mkt/mktclassroom.html": {
+    "href": "views/mkt/mktclassroom.html",
+    "resources": [],
+    "refer": [],
+    "priority": 23
+  },
+  "views/mkt/wx.html": {
+    "href": "views/mkt/wx.html",
+    "resources": [],
+    "priority": 24
+  },
+  "views/mkt/media.html": {
+    "href": "views/mkt/media.html",
+    "resources": [],
+    "priority": 25
+  },
+  "views/mkt/Launchcase.html": {
+    "href": "views/mkt/Launchcase.html",
+    "resources": [],
+    "priority": 26
+  },
+  "views/mkt/related-in.html": {
+    "href": "views/mkt/related-in.html",
+    "resources": [],
+    "refer": [],
+    "priority": 27
+  },
+  "views/mkt/invoice.html": {
+    "href": "views/mkt/invoice.html",
+    "resources": [],
+    "priority": 28
+  },
+  "views/mkt/writearticles.html": {
+    "href": "views/mkt/writearticles.html",
+    "resources": [],
+    "refer": [],
+    "priority": 28
+  },
+  "views/mkt/order-view-dt.html": {
+    "href": "views/mkt/order-view-dt.html",
+    "resources": [],
+    "priority": 32
+  },
+  "views/mkt/order.html": {
+    "href": "views/mkt/order.html",
+    "resources": [],
+    "priority": 37
+  },
+  "views/mkt/order-type.html": {
+    "href": "views/mkt/order-type.html",
+    "resources": [],
+    "refer": [],
+    "priority": 30
+  },
+  "views/mkt/index.html": {
+    "href": "views/mkt/index.html",
+    "resources": [],
+    "refer": [],
+    "priority": 15
+  },
+  "views/crm/productInfoDetail.html": {
+    "href": "views/crm/productInfoDetail.html",
+    "resources": [],
+    "refer": [],
+    "priority": 16
+  },
+  "views/flows/download.html": {
+    "href": "views/flows/download.html",
+    "priority": 18
+  },
+  "views/flows/index.html": {
+    "href": "views/flows/index.html",
+    "resources": [],
+    "priority": 19
+  },
+  "views/flows/draft.html": {
+    "href": "views/flows/draft.html",
+    "priority": 20
+  },
+  "views/flows/myapproval1.html": {
+    "href": "views/flows/myapproval1.html",
+    "priority": 21
+  },
+  "views/flows/myapply.html": {
+    "href": "views/flows/myapply.html",
+    "priority": 22
+  },
+  "views/flows/indexMobile.html": {
+    "href": "views/flows/indexMobile.html",
+    "resources": [],
+    "refer": [],
+    "priority": 17
+  },
+  "views/desk/activityAll.html": {
+    "href": "views/desk/activityAll.html",
+    "resources": [],
+    "priority": 18
+  },
+  "views/desk/index.html": {
+    "href": "views/desk/index.html",
+    "resources": [],
+    "refer": [],
+    "priority": 17
+  },
+  "views/crm/marketActivityDetail.html": {
+    "href": "views/crm/marketActivityDetail.html",
+    "resources": [],
+    "refer": [],
+    "priority": 18
+  },
+  "views/IM/guidance.html": {
+    "href": "views/IM/guidance.html",
+    "resources": [],
+    "priority": 19
+  },
+  "views/IM/Assistant.html": {
+    "href": "views/IM/Assistant.html",
+    "resources": [],
+    "refer": [],
+    "priority": 19
+  },
+  "views/checkon/calendardetail.html": {
+    "href": "views/checkon/calendardetail.html",
+    "resources": [],
+    "priority": 21
+  },
+  "views/checkon/mycalendar.html": {
+    "href": "views/checkon/mycalendar.html",
+    "resources": [],
+    "priority": 22
+  },
+  "views/checkon/deptcalendar.html": {
+    "href": "views/checkon/deptcalendar.html",
+    "resources": [],
+    "priority": 23
+  },
+  "views/checkon/index.html": {
+    "href": "views/checkon/index.html",
+    "resources": [],
+    "refer": [],
+    "priority": 21
+  },
+  "views/IM/index.html": {
+    "href": "views/IM/index.html",
+    "resources": [],
+    "refer": [],
+    "priority": 7
+  },
+  "views/Me/MeSafe.html": {
+    "href": "views/Me/MeSafe.html",
+    "resources": [],
+    "priority": 8
+  },
+  "views/login/RigisterReg.html": {
+    "href": "views/login/RigisterReg.html",
+    "resources": [],
+    "priority": 9
+  },
+  "views/login/agreement.html": {
+    "href": "views/login/agreement.html",
+    "resources": [],
+    "priority": 10
+  },
+  "views/login/StartGuid.html": {
+    "href": "views/login/StartGuid.html",
+    "resources": [],
+    "refer": [],
+    "priority": 0
+  }
+}

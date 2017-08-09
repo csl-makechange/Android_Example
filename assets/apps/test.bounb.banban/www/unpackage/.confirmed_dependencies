@@ -1,0 +1,2579 @@
+{
+  "views/Me/index.html": {
+    "resources": [
+      "js/views/Me/index.js",
+      "img/views/Me/Password-lock.png",
+      "js/common/app-common.js",
+      "img/views/Me/My-business.png",
+      "css/views/Me/Me.css",
+      "img/i-list-chevron-right.png",
+      "img/views/Me/about.png",
+      "img/views/Me/Account-security.png",
+      "js/views/Me/H5lock.js",
+      "img/views/Me/news.png",
+      "img/views/Me/Sign-in.png",
+      "views/login/index.html",
+      "js/md5.js",
+      "views/Me/MePerson.html",
+      "views/Me/MeAccount.html",
+      "css/light7.min.css",
+      "css/common.css",
+      "views/Me/MeGesturePsd.html",
+      "img/views/Me/Feedback.png",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "img/views/Me/head-portrait.png",
+      "img/views/Me/me.png"
+    ],
+    "refer": [
+      "views/login/index.html",
+      "views/Me/MePerson.html",
+      "views/Me/MeAccount.html",
+      "views/Me/feedback.html",
+      "views/Me/MeSystem.html",
+      "views/Me/MeAbout.html",
+      "views/Me/quitEnterprise.html",
+      "views/Me/enterprise.html"
+    ]
+  },
+  "views/desk/index.html": {
+    "resources": [
+      "img/common/appicon/Attendance-attendance.png",
+      "img/common/appicon/More.png",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/swiper.min.js",
+      "views/address-list/index_address.html",
+      "js/css.js",
+      "js/views/desk/index.js",
+      "img/common/appicon/apply.png",
+      "css/light7.min.css",
+      "js/common.js",
+      "js/requirejs.config.js",
+      "css/light7-swiper.min.css",
+      "css/common.css",
+      "js/mui.min.js",
+      "img/common/footer/mail-list.png",
+      "img/views/desk/Novice-essential.png",
+      "img/common/footer/my.png",
+      "img/common/appicon/Sales-opportunities.png",
+      "css/font/font_1433401008_2229297.woff",
+      "img/common/footer/marketing-management.png",
+      "img/common/appicon/schedule.png",
+      "css/views/desk/index.css",
+      "img/common/appicon/Job-log.png",
+      "img/common/footer/workbench1.png",
+      "js/light7.min.js",
+      "js/crossorgin.js",
+      "img/common/appicon/Micro-marketing.png",
+      "js/requirejs2.0.min.js",
+      "img/common/appicon/Customer-information.png",
+      "img/common/footer/my1.png",
+      "img/common/footer/workbench.png",
+      "img/common/footer/marketing-management1.png",
+      "img/common/footer/mail-list1.png",
+      "views/login/index.html",
+      "img/common/appicon/circleschedule.png",
+      "img/common/appicon/marketing.PNG",
+      "img/common/appicon/marketactivity.PNG",
+      "img/common/appicon/customerinfo.PNG",
+      "img/common/appicon/productinfo.PNG",
+      "img/common/appicon/checkon.PNG",
+      "img/common/appicon/workdaily.PNG",
+      "js/common/share.js",
+      "js/common/mui.previewimage.js",
+      "img/common/footer/IM.png",
+      "views/IM/index.html",
+      "js/common/tools.js",
+      "img/common/footer/workbench-1.png",
+      "js/common/mui.zoom.js",
+      "img/common/footer/my-1.png",
+      "img/common/footer/mail-list-1.png",
+      "img/common/appicon/Product-consulting.png",
+      "img/views/desk/activity.png",
+      "img/common/appicon/Marketing-activities.png",
+      "img/common/footer/marketing-management-1.png",
+      "img/common/footer/IM-1.png",
+      "img/views/desk/delete-1.png",
+      "img/common/appicon/Sales-opportunities1.png"
+    ],
+    "refer": [
+      "views/Me/index.html",
+      "views/address-list/index_address.html",
+      "views/mkt/index.html",
+      "views/login/index.html",
+      "views/IM/index.html",
+      "views/crm/sellChanceIndex.html",
+      "views/Micromarketing/MarketingIndex.html",
+      "views/crm/customIndex.html",
+      "views/checkon/index.html",
+      "views/WorkDaily/DailyList.html",
+      "views/desk/activityAll.html",
+      "views/crm/marketActivityIndex.html",
+      "views/crm/productInfoIndex.html",
+      "views/flows/indexMobile.html"
+    ]
+  },
+  "views/address-list/index_address.html": {
+    "resources": [
+      "js/views/address-list/index_address.js",
+      "css/views/login/index.css",
+      "img/views/address-list/Contact-settings.png",
+      "css/views/address-list/addressAll.css",
+      "css/views/login/login.css",
+      "img/views/address-list/Invite-colleagues.png",
+      "views/login/index.html",
+      "js/common/share.js",
+      "js/common/mui.previewimage.js",
+      "js/common/app-common.js",
+      "js/common/mui.zoom.js",
+      "js/md5.js",
+      "img/views/address-list/phone.png",
+      "img/views/address-list/Female-Avatar.png",
+      "js/common/tools.js",
+      "css/light7.min.css",
+      "css/common.css",
+      "css/font/font_1433401008_2229297.woff",
+      "img/i-list-chevron-right.png",
+      "img/views/address-list/Male-head.png",
+      "img/views/address-list/sns.png",
+      "img/views/IM/Invite-colleagues.png",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "img/views/address-list/No-search.png"
+    ],
+    "refer": [
+      "views/login/index.html",
+      "views/address-list/addressChild.html",
+      "views/IM/GroupChat.html",
+      "views/address-list/addDept.html",
+      "views/address-list/MyGroup.html",
+      "views/IM/IMdialog.html",
+      "views/address-list/inviteUser.html",
+      "views/address-list/EmpDetails.html",
+      "views/address-list/organChart.html"
+    ]
+  },
+  "views/mkt/index.html": {
+    "resources": [
+      "js/common/share.js",
+      "css/views/mkt/wx-sina-media.css",
+      "img/views/mkt/banner1.png",
+      "img/views/mkt/news1.png",
+      "js/highcharts.js",
+      "img/views/mkt/Channel-promotion.png",
+      "img/views/mkt/Classic-case.png",
+      "img/views/mkt/micro-blog.png",
+      "js/views/mkt/index.js",
+      "css/views/mkt/goodcase.css",
+      "img/views/mkt/banner2.png",
+      "js/light7-swiper.min.js",
+      "js/common/tools.js",
+      "css/views/mkt/order-link-view-dt.css",
+      "css/views/mkt/cmp-writings.css",
+      "img/views/mkt/WeChat.png",
+      "css/views/mkt/iframe.css",
+      "views/login/index.html",
+      "img/views/mkt/media.png",
+      "css/views/mkt/order-view-deta.css",
+      "css/views/mkt/index.css",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "js/views/mkt/require-mkt.js",
+      "css/views/mkt/goodchal.css",
+      "css/views/mkt/order.css",
+      "js/common/mui.previewimage.js",
+      "css/views/mkt/caselist.css",
+      "css/views/mkt/order-subdt.css",
+      "img/views/mkt/banner3.png",
+      "css/views/mkt/banext.css",
+      "js/common/mui.zoom.js",
+      "css/views/mkt/message.css",
+      "views/mkt/cmp-writings.html",
+      "views/mkt/wx.html",
+      "img/views/mkt/WeChat1.png",
+      "js/requirejs.config.js",
+      "js/requirejs2.0.min.js",
+      "css/light7-swiper.min.css",
+      "img/views/mkt/micro-blog1.png",
+      "views/mkt/sina.html",
+      "img/views/mkt/media1.png",
+      "views/mkt/caselist.html",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "css/light7.min.css",
+      "js/common.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/light7.min.js",
+      "js/crossorgin.js",
+      "views/mkt/goodcase.html",
+      "views/mkt/banext.html",
+      "views/mkt/goodchal.html",
+      "img/views/mkt/Link-feedback.png",
+      "img/views/mkt/news2.png",
+      "img/views/mkt/order.png",
+      "img/views/mkt/order-1.png",
+      "img/common/appicon/circleschedule.png",
+      "img/i-f7.png",
+      "img/views/mkt/1.1img/qiyeweizhan.png",
+      "img/views/mkt/1.1img/qiyequan.png",
+      "img/views/mkt/1.1img/production.png",
+      "img/views/mkt/1.1img/wechat.png",
+      "img/views/mkt/1.1img/group.png",
+      "img/views/mkt/1.1img/media.png",
+      "img/views/mkt/1.1img/seo.png",
+      "img/views/mkt/1.1img/weibo.png",
+      "img/views/mkt/1.1img/internet.png",
+      "img/views/mkt/1.1img/main.png",
+      "img/views/mkt/1.1img/zonghe.png",
+      "img/views/mkt/1.1img/xiangguan.png",
+      "img/views/mkt/1.1img/taocan1.png",
+      "img/views/mkt/1.1img/taocan2.png",
+      "img/views/mkt/1.1img/taocan3.png",
+      "img/views/mkt/1.1img/tuijian.png",
+      "img/views/mkt/1.1img/newsworld.png",
+      "img/views/mkt/banner1.jpg",
+      "img/views/mkt/1.1img/company.png",
+      "img/views/mkt/banner3.jpg",
+      "img/views/mkt/banner2.jpg",
+      "img/views/mkt/1.1img/productworld.png",
+      "img/views/mkt/1.1img/prworld.png"
+    ],
+    "refer": [
+      "views/login/index.html",
+      "views/mkt/wx.html",
+      "views/mkt/sina.html",
+      "views/mkt/media.html",
+      "views/mkt/goodcase.html",
+      "views/mkt/banext.html",
+      "views/mkt/cmp-writings.html",
+      "views/mkt/caselist.html",
+      "views/mkt/goodchal.html",
+      "views/mkt/message.html",
+      "views/mkt/order.html",
+      "views/mkt/enterprise.html",
+      "views/mkt/meindustry.html",
+      "views/mkt/writingdetial.html",
+      "views/mkt/cmpdynamic.html",
+      "views/mkt/enterprise-mrst.html",
+      "views/mkt/order-cmpwt.html",
+      "views/mkt/mktclassroom.html",
+      "views/mkt/Launchcase.html",
+      "views/mkt/related-in.html",
+      "views/mkt/writearticles.html",
+      "views/mkt/packagedt.html",
+      "views/mkt/order-type.html"
+    ]
+  },
+  "views/login/index.html": {
+    "resources": [
+      "img/common/phone-mobil.png",
+      "js/views/login/index.js",
+      "js/city-data.js",
+      "img/common/pwd.png",
+      "img/views/login/logo.png",
+      "js/city-picker.js",
+      "views/login/Rigister.html",
+      "views/Me/MeSafe.html",
+      "css/views/login/index.css",
+      "css/light7.min.css",
+      "css/light7-swiper.min.css",
+      "css/views/login/login.css",
+      "css/common.css",
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "js/swiper.min.js",
+      "js/css.js",
+      "js/common/app-common.js",
+      "js/light7.min.js",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "js/mui.min.js",
+      "js/light7-swiper.min.js",
+      "js/requirejs2.0.min.js",
+      "js/md5.js",
+      "views/desk/index.html",
+      "css/swiper.min.css",
+      "js/light7-city-picker.min.js",
+      "img/Network-failure.png"
+    ],
+    "refer": [
+      "views/login/Rigister.html",
+      "views/Me/MeSafe.html",
+      "views/desk/index.html",
+      "views/IM/index.html"
+    ]
+  },
+  "views/login/Rigister.html": {
+    "resources": [
+      "img/views/login/phone.png",
+      "views/login/RigisterReg.html",
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": []
+  },
+  "views/login/RigisterReg.html": {
+    "resources": [
+      "views/desk/index.html",
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": [
+      "views/desk/index.html"
+    ]
+  },
+  "views/mkt/wx.html": {
+    "resources": [
+      "js/views/mkt/wx-si-me.js",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/jquery.json-2.2.js",
+      "js/common.js",
+      "js/jquery-2.2.4.min.js",
+      "js/requirejs.config.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/css.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "css/views/mkt/wx-sina-media.css",
+      "views/mkt/wx-detail.html",
+      "img/i-list-chevron-right.png",
+      "js/views/mkt/wx.js",
+      "js/common/share.js",
+      "js/highcharts.js",
+      "js/common/mui.previewimage.js",
+      "css/light7-swiper.min.css",
+      "js/light7-swiper.min.js",
+      "js/common/tools.js",
+      "js/common/mui.zoom.js",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "img/views/mkt/No-content.png"
+    ],
+    "refer": []
+  },
+  "views/Me/MeSafe.html": {
+    "resources": [
+      "js/views/Me/H5lock.js",
+      "img/views/Me/Unlock-pattern.png",
+      "js/views/Me/index.js",
+      "css/font/font_1433401008_2229297.woff",
+      "views/desk/index.html",
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": [
+      "views/desk/index.html"
+    ]
+  },
+  "views/mkt/sina.html": {
+    "resources": [
+      "img/i-list-chevron-right.png",
+      "js/views/mkt/wx-si-me.js",
+      "css/views/mkt/wx-sina-media.css",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/requirejs2.0.min.js",
+      "js/light7.min.js",
+      "js/jquery.json-2.2.js",
+      "js/common.js",
+      "js/jquery-2.2.4.min.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/css.js",
+      "css/font/font_1433401008_2229297.woff",
+      "views/mkt/sina-detail.html",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "img/views/mkt/No-content.png"
+    ],
+    "refer": [
+      "views/mkt/media-detail.html",
+      "views/mkt/wx-detail.html"
+    ]
+  },
+  "views/mkt/media.html": {
+    "resources": [
+      "js/views/mkt/wx-si-me.js",
+      "css/views/mkt/wx-sina-media.css",
+      "css/light7.min.css",
+      "js/common.js",
+      "js/jquery-2.2.4.min.js",
+      "js/requirejs.config.js",
+      "js/crossorgin.js",
+      "js/requirejs2.0.min.js",
+      "js/light7.min.js",
+      "js/jquery.json-2.2.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "views/mkt/media-detail.html",
+      "js/css.js",
+      "css/font/font_1433401008_2229297.woff",
+      "img/i-list-chevron-right.png",
+      "css/views/mkt/wx-sina-media-detail.css"
+    ],
+    "refer": []
+  },
+  "views/mkt/caselist.html": {
+    "resources": [
+      "img/views/mkt/5.png",
+      "img/views/mkt/6.png",
+      "img/views/mkt/9.png",
+      "img/views/mkt/0.png",
+      "img/views/mkt/2.png",
+      "img/i-list-chevron-right.png",
+      "js/common/share.js",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/views/mkt/caselist.js",
+      "js/css.js",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/common/mui.previewimage.js",
+      "js/crossorgin.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "js/common/tools.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/common/mui.zoom.js",
+      "css/views/mkt/cmp-writings.css",
+      "img/views/mkt/8.png",
+      "img/views/mkt/10.png",
+      "img/views/mkt/7.png",
+      "css/views/mkt/caselist.css",
+      "img/views/mkt/3.png",
+      "views/mkt/goodcase.html",
+      "img/views/mkt/1.png",
+      "img/views/mkt/11.png",
+      "css/views/mkt/goodcase.css",
+      "img/views/mkt/4.png"
+    ],
+    "refer": []
+  },
+  "views/mkt/goodcase.html": {
+    "resources": [
+      "css/font/font_1433401008_2229297.woff",
+      "css/views/mkt/goodcase.css",
+      "js/views/mkt/goodcase.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/requirejs2.0.min.js",
+      "js/light7.min.js",
+      "js/jquery.json-2.2.js",
+      "js/common.js",
+      "js/jquery-2.2.4.min.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/css.js"
+    ],
+    "refer": []
+  },
+  "views/mkt/cmp-writings.html": {
+    "resources": [
+      "css/font/font_1433401008_2229297.woff",
+      "js/views/mkt/cmpwriting.js",
+      "css/views/mkt/cmp-writings.css",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/jquery.json-2.2.js",
+      "js/common.js",
+      "js/jquery-2.2.4.min.js",
+      "js/requirejs.config.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/css.js",
+      "js/requirejs2.0.min.js",
+      "js/common/share.js",
+      "js/common/mui.previewimage.js",
+      "js/common/tools.js",
+      "js/common/mui.zoom.js",
+      "views/mkt/iframe.html",
+      "css/views/mkt/iframe.css"
+    ],
+    "refer": []
+  },
+  "views/mkt/banext.html": {
+    "resources": [
+      "js/views/mkt/banext.js",
+      "css/views/mkt/banext.css",
+      "css/light7.min.css",
+      "js/jquery.json-2.2.js",
+      "js/common.js",
+      "js/jquery-2.2.4.min.js",
+      "js/requirejs.config.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/css.js",
+      "js/requirejs2.0.min.js",
+      "js/light7.min.js",
+      "css/font/font_1433401008_2229297.woff"
+    ],
+    "refer": []
+  },
+  "views/Me/MePerson.html": {
+    "resources": [
+      "img/views/Me/Male-head.png",
+      "views/Me/MePerChange.html",
+      "img/views/Me/delete1.png",
+      "js/views/Me/Person.js",
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": []
+  },
+  "views/mkt/sina-detail.html": {
+    "resources": [
+      "js/requirejs.config.js",
+      "js/requirejs2.0.min.js"
+    ],
+    "refer": []
+  },
+  "views/mkt/goodchal.html": {
+    "resources": [
+      "img/i-list-chevron-right.png",
+      "views/mkt/wx-detail.html",
+      "js/views/mkt/wx-si-me.js",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "css/views/mkt/goodchal.css",
+      "views/mkt/media-detail.html",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "views/mkt/sina-detail.html"
+    ],
+    "refer": []
+  },
+  "views/mkt/message.html": {
+    "resources": [
+      "js/views/mkt/message.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/views/mkt/require-mkt.js",
+      "js/css.js",
+      "js/views/mkt/order-message.js",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "img/views/mkt/Link-feedback.png",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/requirejs2.0.min.js",
+      "css/views/mkt/message.css",
+      "views/mkt/order-linkdt.html",
+      "css/views/mkt/order-view-deta.css",
+      "css/views/mkt/order-link-view-dt.css",
+      "css/views/mkt/order-subdt.css",
+      "css/views/mkt/iframe.css",
+      "js/common/share.js",
+      "js/common/tools.js",
+      "js/common/mui.previewimage.js",
+      "js/common/mui.zoom.js"
+    ],
+    "refer": []
+  },
+  "views/mkt/iframe.html": {
+    "resources": [
+      "img/views/mkt/shareSina.png",
+      "img/views/mkt/shareclose.png",
+      "img/views/mkt/sharefriend.png",
+      "img/views/mkt/shareqq.png",
+      "img/views/mkt/shareWeChat.png",
+      "js/requirejs.config.js",
+      "js/requirejs2.0.min.js",
+      "img/views/mkt/share.png"
+    ],
+    "refer": []
+  },
+  "views/mkt/order-linkdt.html": {
+    "resources": [
+      "views/mkt/iframe.html",
+      "js/requirejs.config.js",
+      "js/requirejs2.0.min.js",
+      "css/light7.min.css",
+      "css/views/mkt/message.css",
+      "js/views/mkt/require-mkt.js",
+      "js/views/mkt/message.js"
+    ],
+    "refer": []
+  },
+  "views/mkt/order.html": {
+    "resources": [
+      "css/views/mkt/order-view-deta.css",
+      "css/views/mkt/order-link-view-dt.css",
+      "css/views/mkt/order-subdt.css",
+      "js/views/mkt/order.js",
+      "css/views/mkt/order.css",
+      "css/font/font_1433401008_2229297.woff",
+      "css/views/mkt/iframe.css",
+      "js/views/mkt/order-message.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/views/mkt/require-mkt.js",
+      "js/requirejs2.0.min.js",
+      "js/common/share.js",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "js/light7.min.js",
+      "js/common.js",
+      "js/common/mui.previewimage.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/common/tools.js",
+      "js/common/mui.zoom.js",
+      "img/views/mkt/WeChat-promotion.png",
+      "img/views/mkt/Media-promotion.png",
+      "img/views/mkt/Weibo-promotion.png",
+      "views/mkt/order-subdt.html",
+      "views/mkt/order-view-dt.html",
+      "views/mkt/order-view-deta.html",
+      "js/highcharts.js"
+    ],
+    "refer": []
+  },
+  "views/mkt/order-view-dt.html": {
+    "resources": [
+      "views/mkt/iframe.html",
+      "css/light7.min.css",
+      "css/views/mkt/message.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/require-mkt.js",
+      "js/views/mkt/message.js"
+    ],
+    "refer": []
+  },
+  "views/address-list/addressChild.html": {
+    "resources": [
+      "js/views/address-list/index_address.js",
+      "js/common/share.js",
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "css/views/login/login.css",
+      "js/css.js",
+      "js/common/app-common.js",
+      "img/views/address-list/Male-head.png",
+      "js/light7.min.js",
+      "css/views/login/index.css",
+      "css/light7.min.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/common/mui.previewimage.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/common/tools.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/common/mui.zoom.js",
+      "js/md5.js",
+      "img/i-list-chevron-right.png",
+      "img/views/address-list/phone.png",
+      "views/address-list/EmpDetails.html",
+      "img/views/address-list/Female-Avatar.png"
+    ],
+    "refer": []
+  },
+  "views/IM/index.html": {
+    "resources": [
+      "js/views/IM/index.js",
+      "css/views/address-list/addressAll.css",
+      "css/views/IM/index.css",
+      "img/views/IM/Add-to.png",
+      "img/common/footer/IM-1.png",
+      "img/common/footer/mail-list.png",
+      "img/common/footer/my.png",
+      "img/common/footer/marketing-management.png",
+      "img/common/footer/workbench.png",
+      "img/common/footer/IM.png",
+      "views/desk/index.html",
+      "img/common/footer/my-1.png",
+      "img/common/footer/mail-list-1.png",
+      "img/common/footer/workbench-1.png",
+      "img/common/footer/marketing-management-1.png",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "css/common.css",
+      "js/common/app-common.js",
+      "js/requirejs2.0.min.js",
+      "js/light7.min.js",
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "js/mui.min.js",
+      "js/css.js",
+      "views/address-list/index_address.html",
+      "img/views/IM/Little-secretary.png",
+      "img/Network-tips.png",
+      "css/light7-swiper.min.css",
+      "js/light7-swiper.min.js",
+      "img/views/IM/contract.png",
+      "img/views/IM/overtime.png",
+      "img/views/IM/Leave-approval.png",
+      "img/views/IM/shenpi.png",
+      "img/views/IM/qingjia.png",
+      "img/views/IM/Clock-in.png",
+      "img/views/IM/Clock.png",
+      "img/views/IM/Release-data.png",
+      "img/views/IM/market1.png",
+      "img/views/IM/go-out.png",
+      "img/views/IM/kaoqin.png",
+      "img/views/IM/scheduler.png",
+      "img/views/IM/approval.png",
+      "img/views/IM/job.png",
+      "img/views/address-list/Male-head.png",
+      "img/views/IM/camp.png",
+      "img/views/IM/marketing.png",
+      "img/views/address-list/Female-Avatar.png",
+      "img/views/IM/salary.png",
+      "img/views/IM/news.png",
+      "img/views/IM/merchandise.png",
+      "img/views/IM/quit.png",
+      "img/views/IM/Reimbursement.png",
+      "img/views/IM/purchase.png",
+      "img/views/IM/Link-feedback.png"
+    ],
+    "refer": [
+      "views/Me/index.html",
+      "views/desk/index.html",
+      "views/address-list/index_address.html",
+      "views/mkt/index.html",
+      "views/Me/AppAdmin.html",
+      "views/IM/IMdialog.html",
+      "views/Micromarketing/MarketingDetail.html",
+      "views/IM/AllProcess.html",
+      "views/WorkDaily/DailyDetail.html",
+      "views/mkt/order-subdt.html",
+      "views/flows/approvaldetial.html",
+      "views/crm/productInfoDetail.html",
+      "views/crm/marketActivityDetail.html",
+      "views/IM/Assistant.html",
+      "views/checkon/index.html",
+      "views/IM/index.html"
+    ]
+  },
+  "views/crm/sellChanceIndex.html": {
+    "resources": [
+      "img/views/crm/close.png",
+      "img/views/crm/add-to.png",
+      "js/views/crm/sellChance.js",
+      "css/views/crm/index.css",
+      "css/common/firstcharindex-list.css",
+      "js/common/firstcharindex-list.js",
+      "views/crm/sellChanceAdd.html",
+      "views/crm/sellChanceView.html",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/highcharts.js",
+      "js/common/app-common.js",
+      "js/css.js",
+      "img/i-list-chevron-right.png",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "views/crm/sellChancePlanDetail.html",
+      "img/views/address-list/No-content.png"
+    ],
+    "refer": []
+  },
+  "views/crm/sellChanceAdd.html": {
+    "resources": [
+      "img/views/crm/add-to-black.png",
+      "img/views/crm/select.png",
+      "img/views/crm/close.png",
+      "css/light7.min.css",
+      "js/views/crm/sellChance.js",
+      "js/requirejs.config.js",
+      "css/views/crm/index.css",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "views/crm/sellChanceView.html"
+    ],
+    "refer": []
+  },
+  "views/crm/sellChanceDetail.html": {
+    "resources": [
+      "img/views/crm/add-to-black.png"
+    ],
+    "refer": []
+  },
+  "views/crm/sellChanceView.html": {
+    "resources": [
+      "img/views/address-list/No-content.png",
+      "views/crm/sellChanceDetail.html",
+      "css/light7.min.css",
+      "js/views/crm/sellChance.js",
+      "js/requirejs.config.js",
+      "css/views/crm/index.css",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff"
+    ],
+    "refer": []
+  },
+  "views/Micromarketing/MarketingIndex.html": {
+    "resources": [
+      "img/views/mkt/shareSina.png",
+      "css/views/Micromarketing/MarketingDetail.css",
+      "img/views/Micromarketing/business-card.png",
+      "img/views/mkt/shareclose.png",
+      "css/views/Micromarketing/AddMarketing.css",
+      "img/views/mkt/sharefriend.png",
+      "css/views/Micromarketing/MarketingIndex.css",
+      "img/views/mkt/shareqq.png",
+      "css/views/Micromarketing/EditCard.css",
+      "img/views/Micromarketing/add-to.png",
+      "img/views/mkt/shareWeChat.png",
+      "css/views/mkt/iframe.css",
+      "css/views/Micromarketing/MyCard.css",
+      "js/views/Micromarketing/MarketingCommon.js",
+      "js/common/banban-footer.js",
+      "js/jquery.lazyload.min.js",
+      "js/common/banban-tree.js",
+      "css/common/banban-tree.css",
+      "img/views/Micromarketing/comment.png",
+      "img/views/Micromarketing/Share.png",
+      "img/views/Micromarketing/Zambia.png",
+      "img/views/Micromarketing/Zambia-1.png",
+      "js/common/share.js",
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "js/css.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "css/light7-swiper.min.css",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/light7-swiper.min.js",
+      "js/common/tools.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/common/app-common.js",
+      "js/light7.min.js",
+      "js/common/mui.previewimage.js",
+      "js/crossorgin.js",
+      "js/requirejs2.0.min.js",
+      "js/common/mui.zoom.js",
+      "img/views/Micromarketing/Male-head.png",
+      "views/Micromarketing/AddMarketing.html",
+      "views/Micromarketing/MyCard.html"
+    ],
+    "refer": []
+  },
+  "views/crm/customIndex.html": {
+    "resources": [
+      "js/jquery-2.2.4.min.js",
+      "css/views/crm/index.css",
+      "js/jquery.json-2.2.js",
+      "js/common/app-common.js",
+      "js/css.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "css/light7-swiper.min.css",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/views/crm/custom.js",
+      "css/mui.picker.min.css",
+      "js/requirejs2.0.min.js",
+      "css/common/firstcharindex-list.css",
+      "js/common/firstcharindex-list.js",
+      "img/views/address-list/No-content.png",
+      "js/light7.min.js",
+      "img/views/crm/location.png",
+      "img/views/crm/add-to.png",
+      "js/mui.picker.min.js",
+      "js/light7-swiper.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "views/crm/customAdd.html",
+      "img/views/crm/phone.png",
+      "views/crm/customDetail.html"
+    ],
+    "refer": []
+  },
+  "views/crm/customAdd.html": {
+    "resources": [
+      "img/views/crm/close.png",
+      "img/views/crm/add-to-black.png",
+      "img/views/crm/camera.png",
+      "img/i-list-chevron-right.png"
+    ],
+    "refer": []
+  },
+  "views/crm/customDetail.html": {
+    "resources": [
+      "img/views/crm/camera.png",
+      "img/i-list-chevron-right.png"
+    ],
+    "refer": []
+  },
+  "views/checkon/index.html": {
+    "resources": [
+      "css/views/checkon/calendardetail.css",
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "js/mui.picker.min.js",
+      "img/views/checkon/date.png",
+      "img/views/checkon/camera.png",
+      "js/css.js",
+      "css/views/checkon/deptcalendar.css",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "css/light7-swiper.min.css",
+      "js/mui.min.js",
+      "css/common.css",
+      "js/common/banban-tree.js",
+      "js/light7-swiper.min.js",
+      "css/mui.picker.min.css",
+      "css/font/font_1433401008_2229297.woff",
+      "css/views/checkon/calendar.css",
+      "css/common/banban-tree.css",
+      "js/async.js",
+      "js/common/address-map.js",
+      "js/views/checkon/checkon.js",
+      "css/views/checkon/index.css",
+      "js/common/app-common.js",
+      "img/views/checkon/time.png",
+      "js/light7.min.js",
+      "js/crossorgin.js",
+      "js/requirejs2.0.min.js",
+      "views/checkon/deptcalendar.html",
+      "img/views/checkon/address.png",
+      "img/common/Male-head.png",
+      "img/common/Girl-head.png",
+      "img/sex_man.png",
+      "img/Signed3x.png"
+    ],
+    "refer": [
+      "views/login/index.html",
+      "views/checkon/calendardetail.html",
+      "views/checkon/mycalendar.html"
+    ]
+  },
+  "views/Me/MeAccount.html": {
+    "resources": [
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "js/common/app-common.js",
+      "img/i-list-chevron-right.png",
+      "css/views/Me/Me.css",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/views/Me/H5lock.js",
+      "js/views/Me/Accountsafe.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/md5.js",
+      "views/Me/MeChangePsd.html"
+    ],
+    "refer": [
+      "views/login/index.html"
+    ]
+  },
+  "views/checkon/deptcalendar.html": {
+    "resources": [
+      "views/checkon/mycalendar.html",
+      "img/sex_man.png",
+      "img/i-list-chevron-right.png",
+      "css/views/checkon/calendar.css",
+      "css/views/checkon/deptcalendar.css",
+      "css/views/checkon/index.css",
+      "css/views/checkon/calendardetail.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/checkon/checkon.js"
+    ],
+    "refer": []
+  },
+  "views/checkon/mycalendar.html": {
+    "resources": [
+      "img/sex_man.png",
+      "css/views/checkon/calendar.css",
+      "css/views/checkon/deptcalendar.css",
+      "css/views/checkon/index.css",
+      "css/views/checkon/calendardetail.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/checkon/checkon.js"
+    ],
+    "refer": []
+  },
+  "views/WorkDaily/DailyEdit.html": {
+    "resources": [
+      "img/views/workdaily/workdaily-add.png",
+      "img/views/checkon/camera.png",
+      "img/views/workdaily/Back-Icon.png",
+      "img/views/address-list/No-content.png",
+      "img/common/Girl-head.png",
+      "img/common/Male-head.png",
+      "img/i-list-chevron-right.png",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "css/light7.min.css",
+      "css/views/WorkDaily/DailyList.css",
+      "css/views/WorkDaily/DailyDetail.css",
+      "css/views/WorkDaily/DailyEdit.css",
+      "js/views/WorkDaily/WorkDaily.js"
+    ],
+    "refer": []
+  },
+  "views/WorkDaily/DailyList.html": {
+    "resources": [
+      "js/common/address-list.js",
+      "js/mui.picker.min.js",
+      "js/views/WorkDaily/WorkDaily.js",
+      "css/views/WorkDaily/DailyList.css",
+      "css/views/WorkDaily/DailyDetail.css",
+      "css/common/address-list.css",
+      "css/views/WorkDaily/DailyEdit.css",
+      "img/views/workdaily/add-to.png",
+      "img/views/workdaily/sort.png",
+      "views/WorkDaily/DailyEdit.html",
+      "js/common/banban-tree.js",
+      "css/mui.picker.min.css",
+      "css/common/firstcharindex-list.css",
+      "css/common/banban-tree.css",
+      "js/common/firstcharindex-list.js",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "css/light7.min.css",
+      "js/common.js",
+      "js/requirejs.config.js",
+      "css/light7-swiper.min.css",
+      "js/mui.min.js",
+      "css/common.css",
+      "js/common/app-common.js",
+      "js/crossorgin.js",
+      "js/requirejs2.0.min.js",
+      "js/light7-swiper.min.js",
+      "img/views/checkon/camera.png",
+      "img/views/workdaily/Back-Icon.png",
+      "css/font/font_1433401008_2229297.woff",
+      "js/light7.min.js"
+    ],
+    "refer": []
+  },
+  "views/Micromarketing/AddMarketing.html": {
+    "resources": [
+      "img/views/crm/camera.png",
+      "img/views/Micromarketing/Male-head.png",
+      "css/light7.min.css",
+      "css/views/Micromarketing/MarketingDetail.css",
+      "css/views/Micromarketing/AddMarketing.css",
+      "css/views/Micromarketing/MarketingIndex.css",
+      "css/views/Micromarketing/MyCard.css",
+      "css/views/Micromarketing/EditCard.css",
+      "css/views/mkt/iframe.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Micromarketing/MarketingCommon.js"
+    ],
+    "refer": []
+  },
+  "views/Micromarketing/MyCard.html": {
+    "resources": [
+      "img/i-list-chevron-right.png",
+      "img/views/Micromarketing/Male-head.png",
+      "views/Micromarketing/EditCard.html",
+      "js/common/share.js",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "css/views/Micromarketing/AddMarketing.css",
+      "js/css.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/mui.min.js",
+      "js/common/banban-tree.js",
+      "js/light7-swiper.min.js",
+      "js/common/tools.js",
+      "css/views/Micromarketing/EditCard.css",
+      "css/font/font_1433401008_2229297.woff",
+      "css/views/mkt/iframe.css",
+      "css/common/banban-tree.css",
+      "js/views/Micromarketing/MarketingCommon.js",
+      "js/common/banban-footer.js",
+      "css/views/Micromarketing/MarketingDetail.css",
+      "css/views/Micromarketing/MarketingIndex.css",
+      "js/jquery.lazyload.min.js",
+      "js/common/app-common.js",
+      "js/light7.min.js",
+      "js/crossorgin.js",
+      "js/common/mui.previewimage.js",
+      "js/requirejs2.0.min.js",
+      "css/views/Micromarketing/MyCard.css",
+      "js/common/mui.zoom.js"
+    ],
+    "refer": []
+  },
+  "views/desk/activityAll.html": {
+    "resources": [
+      "js/common/share.js",
+      "img/views/mkt/shareSina.png",
+      "img/views/mkt/shareclose.png",
+      "js/common/mui.previewimage.js",
+      "img/views/desk/share.png",
+      "img/views/mkt/sharefriend.png",
+      "js/views/desk/activity.js",
+      "js/common/tools.js",
+      "img/views/mkt/shareqq.png",
+      "img/views/mkt/shareWeChat.png",
+      "css/font/font_1433401008_2229297.woff",
+      "js/common/mui.zoom.js",
+      "css/light7.min.css",
+      "css/views/desk/index.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": []
+  },
+  "views/Micromarketing/EditCard.html": {
+    "resources": [
+      "img/views/Me/delete1.png",
+      "css/light7.min.css",
+      "css/views/Micromarketing/MarketingDetail.css",
+      "css/views/Micromarketing/AddMarketing.css",
+      "css/views/Micromarketing/MarketingIndex.css",
+      "css/views/Micromarketing/MyCard.css",
+      "css/views/Micromarketing/EditCard.css",
+      "css/views/mkt/iframe.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Micromarketing/MarketingCommon.js"
+    ],
+    "refer": []
+  },
+  "views/crm/marketActivityIndex.html": {
+    "resources": [
+      "js/common/address-list.js",
+      "css/views/crm/index.css",
+      "js/mui.picker.min.js",
+      "js/common/banban-tree.js",
+      "js/jquery.lazyload.min.js",
+      "css/mui.picker.min.css",
+      "css/common/address-list.css",
+      "js/common/firstcharindex-list.js",
+      "js/views/crm/market.js",
+      "img/views/Me/Male-head.png",
+      "img/views/crm/add-to.png",
+      "img/views/crm/my.png",
+      "css/common/banban-tree.css",
+      "css/common/firstcharindex-list.css",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "views/crm/marketActivityAdd.html",
+      "css/light7.min.css",
+      "js/common.js",
+      "js/requirejs.config.js",
+      "css/light7-swiper.min.css",
+      "js/mui.min.js",
+      "css/common.css",
+      "js/light7-swiper.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "img/views/Me/me.png",
+      "js/common/app-common.js",
+      "js/light7.min.js",
+      "js/crossorgin.js",
+      "js/requirejs2.0.min.js"
+    ],
+    "refer": []
+  },
+  "views/login/StartGuid.html": {
+    "resources": [
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "css/views/login/login.css",
+      "img/views/login/third.png",
+      "js/views/login/index.js",
+      "js/swiper.min.js",
+      "js/common/app-common.js",
+      "js/css.js",
+      "js/light7.min.js",
+      "css/views/login/index.css",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "img/views/login/second.png",
+      "css/common.css",
+      "js/mui.min.js",
+      "css/swiper.min.css",
+      "img/views/login/first.png",
+      "js/requirejs2.0.min.js",
+      "js/light7-city-picker.min.js",
+      "img/views/login/forth.png",
+      "js/md5.js",
+      "views/login/index.html",
+      "img/views/login/1.png",
+      "img/views/login/2.png",
+      "img/views/login/3.png",
+      "img/views/login/4.png",
+      "img/views/address-list/Business-head-0.png"
+    ],
+    "refer": [
+      "views/login/index.html",
+      "views/IM/index.html",
+      "views/login/createCompany.html",
+      "views/login/createAndLogin.html",
+      "views/login/loginReg.html",
+      "views/login/Rigister.html",
+      "views/login/EnterName.html",
+      "views/Me/MeSafe.html",
+      "views/login/RigisterReg.html",
+      "views/login/agreement.html"
+    ]
+  },
+  "views/Me/feedback.html": {
+    "resources": [
+      "js/views/IM/strophe.js",
+      "css/mui.min.css",
+      "js/views/IM/webim.config.js",
+      "js/views/IM/websdk.shim.js",
+      "img/views/Me/me.png",
+      "js/views/IM/websdk-1.1.2.js",
+      "js/views/Me/index.js",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "js/common/app-common.js",
+      "css/views/Me/Me.css",
+      "js/light7.min.js",
+      "css/light7.min.css",
+      "js/common.js",
+      "js/requirejs.config.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/views/Me/H5lock.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/md5.js"
+    ],
+    "refer": []
+  },
+  "views/Me/AppAdmin.html": {
+    "resources": [
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "css/views/login/login.css",
+      "js/css.js",
+      "js/common/app-common.js",
+      "img/views/address-list/Male-head.png",
+      "img/i-list-chevron-right.png",
+      "js/light7.min.js",
+      "css/views/login/index.css",
+      "css/light7.min.css",
+      "js/views/Me/AppAdmin.js",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/md5.js",
+      "img/views/address-list/Female-Avatar.png",
+      "img/views/address-list/choice1.png",
+      "img/views/address-list/No-search.png"
+    ],
+    "refer": [
+      "views/IM/IMdialog.html",
+      "views/IM/GroupChat.html",
+      "views/login/createAndLogin.html"
+    ]
+  },
+  "views/IM/IMdialog.html": {
+    "resources": [
+      "img/views/IM/personal-data.png",
+      "img/views/IM/Album.png",
+      "js/views/IM/websdk-1.1.2.js",
+      "js/views/IM/strophe.js",
+      "js/views/IM/index.js",
+      "css/views/IM/index.css",
+      "css/mui.min.css",
+      "img/views/address-list/Female-Avatar.png",
+      "js/views/IM/webim.config.js",
+      "js/views/IM/websdk.shim.js",
+      "img/views/IM/Add.png",
+      "img/views/IM/camera.png",
+      "img/views/IM/Expression.png",
+      "js/jquery-2.2.4.min.js",
+      "js/jquery.json-2.2.js",
+      "js/css.js",
+      "css/light7.min.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "js/common/app-common.js",
+      "img/views/address-list/Male-head.png",
+      "js/light7.min.js",
+      "css/views/address-list/addressAll.css",
+      "js/crossorgin.js",
+      "js/requirejs2.0.min.js",
+      "js/views/IM/IMdialog.js",
+      "img/views/IM/Add-1.png",
+      "img/views/Me/head-portrait.png",
+      "js/views/IM/DetailAll.js"
+    ],
+    "refer": [
+      "views/IM/index.html",
+      "views/IM/EmpDetail.html",
+      "views/Me/AppAdmin.html",
+      "views/IM/chatSetting.html",
+      "views/IM/ChatFile.html"
+    ]
+  },
+  "views/crm/productInfoIndex.html": {
+    "resources": [
+      "css/views/crm/index.css",
+      "js/views/crm/product.js",
+      "js/jquery.lazyload.min.js",
+      "img/views/crm/choice.png"
+    ],
+    "refer": []
+  },
+  "views/mkt/enterprise.html": {
+    "resources": [
+      "js/common/share.js",
+      "css/views/mkt/enterpriseset.css",
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "js/css.js",
+      "css/views/mkt/enterprise-writings.css",
+      "js/light7.min.js",
+      "js/views/mkt/enterprise.js",
+      "css/light7.min.css",
+      "css/views/mkt/enterprise.css",
+      "js/requirejs.config.js",
+      "js/common.js",
+      "js/common/mui.previewimage.js",
+      "js/crossorgin.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "js/common/tools.js",
+      "css/mui.min.css",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "css/views/mkt/iframe.css",
+      "js/common/mui.zoom.js",
+      "img/views/mkt/No-news.png",
+      "img/views/mkt/Link-sharing.png",
+      "img/views/mkt/No-order.png",
+      "img/views/mkt/1.1img/Business-head.png"
+    ],
+    "refer": [
+      "views/mkt/enterprise-writings.html",
+      "views/mkt/enterpriseset.html"
+    ]
+  },
+  "views/crm/marketActivityAdd.html": {
+    "resources": [
+      "img/views/crm/camera.png",
+      "img/i-list-chevron-right.png"
+    ],
+    "refer": []
+  },
+  "views/flows/indexMobile.html": {
+    "resources": [
+      "js/common/banban-footer.js",
+      "js/jquery.json-2.2.js",
+      "js/jquery-2.2.4.min.js",
+      "img/approval.png",
+      "css/views/desk/index.css",
+      "img/Draft.png",
+      "js/css.js",
+      "js/common/app-common.js",
+      "views/flows/index.html",
+      "js/light7.min.js",
+      "css/views/flow/common_mobile.css",
+      "css/light7.min.css",
+      "img/Initiated.png",
+      "js/common.js",
+      "js/requirejs.config.js",
+      "js/crossorgin.js",
+      "css/views/flow/flow_mobile.css",
+      "css/common.css",
+      "js/mui.min.js",
+      "css/views/flow/myapproval.css",
+      "js/views/flows/index.js",
+      "js/requirejs2.0.min.js",
+      "css/font/font_1433401008_2229297.woff",
+      "css/views/flow/flows.css",
+      "js/views/flows/flow_mobile.js",
+      "img/views/mkt/No-news.png"
+    ],
+    "refer": [
+      "views/flows/approvaldetial.html",
+      "views/flows/download.html",
+      "views/flows/draft.html",
+      "views/flows/myapproval1.html",
+      "views/flows/myapply.html"
+    ]
+  },
+  "views/login/loginCode.html": {
+    "href": "views/login/loginCode.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/login/createCompany.html": {
+    "href": "views/login/createCompany.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/login/createAndLogin.html": {
+    "href": "views/login/createAndLogin.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/login/loginReg.html": {
+    "href": "views/login/loginReg.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/login/EnterName.html": {
+    "href": "views/login/EnterName.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/EmpDetail.html": {
+    "href": "views/IM/EmpDetail.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/index.js",
+      "img/views/IM/sns.png",
+      "img/views/IM/phone.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/groupComm.html": {
+    "href": "views/IM/groupComm.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/groupChat.js",
+      "img/views/address-list/Male-head.png",
+      "img/views/address-list/Female-Avatar.png",
+      "img/views/IM/Contacts.png",
+      "img/views/IM/picture.png",
+      "img/views/IM/information.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/groupEmpSet.html": {
+    "href": "views/IM/groupEmpSet.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/groupChat.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/GroupSetting.html": {
+    "href": "views/IM/GroupSetting.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/groupChat.js",
+      "img/views/IM/QR-code.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/ChatFile.html": {
+    "href": "views/IM/ChatFile.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/mui.min.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/groupChat.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/EmpSetting.html": {
+    "href": "views/IM/EmpSetting.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/IM/index.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/SettRemarks.html": {
+    "href": "views/IM/SettRemarks.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/IM/index.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/GroupChat.html": {
+    "href": "views/IM/GroupChat.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/light7.min.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/jquery-2.2.4.min.js",
+      "js/views/IM/strophe.js",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/websdk-1.1.2.js",
+      "js/views/IM/webim.config.js",
+      "js/views/IM/websdk.shim.js",
+      "js/views/IM/groupChat.js",
+      "img/views/IM/addGroup.png",
+      "img/views/IM/_.png",
+      "img/views/IM/Add-1.png",
+      "js/views/IM/DetailAll.js",
+      "img/views/IM/Album.png",
+      "img/views/IM/Expression.png",
+      "img/views/IM/Add.png"
+    ],
+    "refer": [
+      "views/IM/groupComm.html",
+      "views/IM/groupEmpSet.html",
+      "views/Me/AppAdmin.html",
+      "views/IM/GroupSetting.html",
+      "views/IM/index.html",
+      "views/IM/EmpDetail.html",
+      "views/IM/ChatFile.html",
+      "views/IM/EmpSetting.html",
+      "views/IM/IMdialog.html",
+      "views/IM/SettRemarks.html"
+    ],
+    "priority": 0
+  },
+  "views/IM/chatComm.html": {
+    "href": "views/IM/chatComm.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/IMdialog.js",
+      "img/views/address-list/Male-head.png",
+      "img/views/IM/Little-secretary.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/chatSetting.html": {
+    "href": "views/IM/chatSetting.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/IMdialog.js",
+      "img/views/IM/addGroup.png"
+    ],
+    "refer": [
+      "views/IM/chatComm.html"
+    ],
+    "priority": 0
+  },
+  "views/Micromarketing/MarketingDetail.html": {
+    "href": "views/Micromarketing/MarketingDetail.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Micromarketing/MarketingDetail.css",
+      "css/views/Micromarketing/AddMarketing.css",
+      "css/views/Micromarketing/MarketingIndex.css",
+      "css/views/Micromarketing/MyCard.css",
+      "css/views/Micromarketing/EditCard.css",
+      "css/views/mkt/iframe.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Micromarketing/MarketingCommon.js",
+      "img/common/Girl-head.png",
+      "img/views/address-list/app-logo.png",
+      "img/views/Micromarketing/Male-head.png",
+      "img/views/Micromarketing/marketing.png",
+      "img/views/schedule/delete.png",
+      "img/common/Male-head.png",
+      "img/views/mkt/shareclose.png",
+      "img/views/mkt/shareWeChat.png",
+      "img/views/mkt/sharefriend.png",
+      "img/views/mkt/shareSina.png",
+      "img/views/mkt/shareqq.png",
+      "img/views/Micromarketing/Share.png"
+    ],
+    "refer": [
+      "views/Micromarketing/MarketingDetail.html",
+      "views/Micromarketing/AddMarketing.html",
+      "views/Micromarketing/MyCard.html"
+    ],
+    "priority": 0
+  },
+  "views/IM/AllProcess.html": {
+    "href": "views/IM/AllProcess.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/IM/index.css",
+      "css/views/mkt/order-link-view-dt.css",
+      "css/views/mkt/order-subdt.css",
+      "css/views/mkt/order-view-deta.css",
+      "js/jquery-2.2.4.min.js",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/order-message.js",
+      "img/views/mkt/Link-sharing.png",
+      "js/views/IM/index.js"
+    ],
+    "refer": [
+      "views/mkt/iframe.html"
+    ],
+    "priority": 0
+  },
+  "views/WorkDaily/DailyDetail.html": {
+    "href": "views/WorkDaily/DailyDetail.html",
+    "resources": [
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "css/light7.min.css",
+      "css/views/WorkDaily/DailyList.css",
+      "css/views/WorkDaily/DailyDetail.css",
+      "css/views/WorkDaily/DailyEdit.css",
+      "js/views/WorkDaily/WorkDaily.js",
+      "img/common/Male-head.png",
+      "img/common/Girl-head.png",
+      "img/views/workdaily/No-task.png",
+      "img/common/file.png"
+    ],
+    "refer": [
+      "views/WorkDaily/DailyDetail.html",
+      "views/WorkDaily/DailyEdit.html"
+    ],
+    "priority": 0
+  },
+  "views/Me/MePerChange.html": {
+    "href": "views/Me/MePerChange.html",
+    "resources": [
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/index.js",
+      "js/views/Me/Person.js",
+      "img/views/Me/Male-head.png",
+      "img/views/Me/delete1.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/Me/MeSystem.html": {
+    "href": "views/Me/MeSystem.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Person.js",
+      "img/views/Me/Male-head.png",
+      "img/views/Me/No-news.png"
+    ],
+    "refer": [
+      "views/Me/index.html",
+      "views/Me/MePerChange.html"
+    ],
+    "priority": 0
+  },
+  "views/Me/MeGesturePsd.html": {
+    "href": "views/Me/MeGesturePsd.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/Me/MeChangePsd.html": {
+    "href": "views/Me/MeChangePsd.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Accountsafe.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/Me/MeChangePh.html": {
+    "href": "views/Me/MeChangePh.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Accountsafe.js",
+      "img/views/Me/phone.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/Me/MeAccountSafe.html": {
+    "href": "views/Me/MeAccountSafe.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Accountsafe.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/Me/MeNewPh.html": {
+    "href": "views/Me/MeNewPh.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Accountsafe.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/Me/MeCode.html": {
+    "href": "views/Me/MeCode.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Accountsafe.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/Me/agreement.html": {
+    "href": "views/Me/agreement.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Accountsafe.js",
+      "img/views/Me/error.png"
+    ],
+    "refer": [
+      "views/Me/MeChangePh.html",
+      "views/Me/MeAccountSafe.html",
+      "views/Me/index.html",
+      "views/Me/MeNewPh.html",
+      "views/login/index.html",
+      "views/Me/MeCode.html"
+    ],
+    "priority": 0
+  },
+  "views/Me/MeAbout.html": {
+    "href": "views/Me/MeAbout.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/aboutBB.js",
+      "img/views/Me/logo.png",
+      "img/views/Me/download.png"
+    ],
+    "refer": [
+      "views/Me/agreement.html",
+      "views/Me/MeAbout.html"
+    ],
+    "priority": 0
+  },
+  "views/Me/quitEnterprise.html": {
+    "href": "views/Me/quitEnterprise.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Enterprise.js",
+      "img/views/address-list/Business-head-0.png"
+    ],
+    "refer": [
+      "views/login/createCompany.html",
+      "views/Me/AppAdmin.html",
+      "views/login/createAndLogin.html"
+    ],
+    "priority": 0
+  },
+  "views/Me/enterprise.html": {
+    "href": "views/Me/enterprise.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/Me/Me.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/Me/Enterprise.js",
+      "img/views/Me/Not-in-Enterprise.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/order-view-deta.html": {
+    "href": "views/mkt/order-view-deta.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/message.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/require-mkt.js",
+      "js/views/mkt/message.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/order-subdt.html": {
+    "href": "views/mkt/order-subdt.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/message.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/require-mkt.js",
+      "js/views/mkt/message.js",
+      "img/views/mkt/Link-feedback.png",
+      "img/views/mkt/No-news.png",
+      "img/views/mkt/Data-feedback.png",
+      "img/views/mkt/publish-preview.png"
+    ],
+    "refer": [
+      "views/mkt/order-subdt.html",
+      "views/mkt/order-view-deta.html",
+      "views/mkt/order-linkdt.html"
+    ],
+    "priority": 0
+  },
+  "views/address-list/organChart.html": {
+    "href": "views/address-list/organChart.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/address-list/index_address.js"
+    ],
+    "refer": [
+      "views/address-list/addDept.html"
+    ],
+    "priority": 0
+  },
+  "views/address-list/addDept.html": {
+    "href": "views/address-list/addDept.html",
+    "resources": [
+      "css/light7.min.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/address-list/index_address.js"
+    ],
+    "refer": [
+      "views/address-list/organChart.html"
+    ],
+    "priority": 0
+  },
+  "views/address-list/MyGroup.html": {
+    "href": "views/address-list/MyGroup.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/address-list/index_address.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/address-list/PhoneUser.html": {
+    "href": "views/address-list/PhoneUser.html",
+    "resources": [
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/address-list/index_address.js"
+    ],
+    "refer": [
+      "views/address-list/inviteUser.html"
+    ],
+    "priority": 0
+  },
+  "views/address-list/PhoneInvitate.html": {
+    "href": "views/address-list/PhoneInvitate.html",
+    "resources": [
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/address-list/index_address.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/address-list/inviteUser.html": {
+    "href": "views/address-list/inviteUser.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/address-list/index_address.js",
+      "img/views/address-list/WeChat-invitation.png",
+      "img/views/address-list/QQ-invitation.png",
+      "img/views/address-list/Phone-number.png",
+      "img/views/address-list/SMS.png"
+    ],
+    "refer": [
+      "views/address-list/PhoneUser.html",
+      "views/address-list/PhoneInvitate.html"
+    ],
+    "priority": 0
+  },
+  "views/address-list/EmpDetails.html": {
+    "href": "views/address-list/EmpDetails.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/address-list/index_address.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/flows/approvaldetial.html": {
+    "href": "views/flows/approvaldetial.html",
+    "priority": 0
+  },
+  "views/mkt/media-detail.html": {
+    "href": "views/mkt/media-detail.html",
+    "resources": [
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/pre-order.html": {
+    "href": "views/mkt/pre-order.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/pre-order.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/writearticles.js",
+      "img/views/mkt/shareclose.png",
+      "img/views/mkt/1.1img/banbanpay.png",
+      "img/views/mkt/1.1img/weixinpay.png",
+      "img/views/mkt/1.1img/zhifubao.png"
+    ],
+    "refer": [
+      "views/mkt/pre-order.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/packagedt.html": {
+    "href": "views/mkt/packagedt.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/packagedt.css",
+      "css/views/mkt/pre-order.css",
+      "css/views/mkt/writearticles.css",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/industryPackage.js",
+      "js/views/mkt/payment.js",
+      "js/views/mkt/banbanpay.js"
+    ],
+    "refer": [
+      "views/IM/index.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/meindustry.html": {
+    "href": "views/mkt/meindustry.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/meindustry.css",
+      "css/views/mkt/packagedt.css",
+      "css/views/mkt/pre-order.css",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/industryPackage.js",
+      "img/views/mkt/1.1img/logistics.png",
+      "img/views/mkt/1.1img/make.png",
+      "img/views/mkt/No-news.png",
+      "img/views/mkt/1.1img/about.png",
+      "img/views/mkt/1.1img/it.png",
+      "img/views/mkt/1.1img/banbanpay.png",
+      "img/views/mkt/1.1img/process.png",
+      "img/views/mkt/1.1img/art.png",
+      "img/views/mkt/1.1img/energy.png",
+      "img/views/mkt/1.1img/others.png",
+      "img/views/mkt/1.1img/entertainment.png",
+      "img/views/mkt/1.1img/business.png",
+      "img/views/mkt/1.1img/estate.png",
+      "img/views/mkt/1.1img/newsresouce.png",
+      "img/views/mkt/1.1img/maoyi.png",
+      "img/views/mkt/1.1img/service.png",
+      "js/views/mkt/payment.js",
+      "js/views/mkt/banbanpay.js"
+    ],
+    "refer": [
+      "views/mkt/meindustry.html",
+      "views/mkt/media-detail.html",
+      "views/mkt/pre-order.html",
+      "views/mkt/packagedt.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/writingdetial.html": {
+    "href": "views/mkt/writingdetial.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/writingdetial.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/writingdetial.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/cmpdynamic.html": {
+    "href": "views/mkt/cmpdynamic.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/writingdetial.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/Launchcase.js"
+    ],
+    "refer": [
+      "views/mkt/writingdetial.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/enterprise-edit.html": {
+    "href": "views/mkt/enterprise-edit.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/enterprise-mrst.css",
+      "css/views/mkt/iframe.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/enterprise-mrst.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/enterprise-mrst.html": {
+    "href": "views/mkt/enterprise-mrst.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/enterprise-mrst.css",
+      "css/views/mkt/iframe.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/enterprise-mrst.js",
+      "img/views/mkt/Link-sharing.png",
+      "img/views/mkt/shareclose.png",
+      "img/views/mkt/shareWeChat.png",
+      "img/views/mkt/sharefriend.png",
+      "img/views/mkt/shareSina.png",
+      "img/views/mkt/shareqq.png"
+    ],
+    "refer": [
+      "views/mkt/enterprise-edit.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/order-cmpdt.html": {
+    "href": "views/mkt/order-cmpdt.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/order-cmpdt.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/order-cmpwt.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/order-cmpwt.html": {
+    "href": "views/mkt/order-cmpwt.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/order-cmpwt.css",
+      "css/views/mkt/order-cmpdt.css",
+      "css/views/mkt/iframe.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/order-cmpwt.js",
+      "img/views/mkt/Link-sharing.png",
+      "img/views/mkt/No-news.png"
+    ],
+    "refer": [
+      "views/mkt/iframe.html",
+      "views/mkt/order-cmpdt.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/et-wtcmt-list.html": {
+    "href": "views/mkt/et-wtcmt-list.html",
+    "resources": [
+      "css/light7.min.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/enterprise.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/enterprise-writings.html": {
+    "href": "views/mkt/enterprise-writings.html",
+    "resources": [
+      "css/light7.min.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/enterprise.js",
+      "img/views/mkt/shareclose.png",
+      "img/views/mkt/shareWeChat.png",
+      "img/views/mkt/sharefriend.png",
+      "img/views/mkt/shareSina.png",
+      "img/views/mkt/shareqq.png"
+    ],
+    "refer": [
+      "views/mkt/et-wtcmt-list.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/enterprise-sc.html": {
+    "href": "views/mkt/enterprise-sc.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/enterpriseset.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/enterprisecoll.html": {
+    "href": "views/mkt/enterprisecoll.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/enterpriseset.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/enterpriseset.html": {
+    "href": "views/mkt/enterpriseset.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/enterpriseset.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": [
+      "views/mkt/enterprise-sc.html",
+      "views/mkt/enterprisecoll.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/wx-detail.html": {
+    "href": "views/mkt/wx-detail.html",
+    "resources": [
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/mktclassroom.html": {
+    "href": "views/mkt/mktclassroom.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/mktclassroom.css",
+      "css/views/mkt/writingdetial.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/mktclassroom.js"
+    ],
+    "refer": [
+      "views/mkt/writingdetial.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/Launchcase.html": {
+    "href": "views/mkt/Launchcase.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/writingdetial.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/Launchcase.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/related-in.html": {
+    "href": "views/mkt/related-in.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/related-in.css",
+      "css/views/mkt/meindustry.css",
+      "css/views/mkt/packagedt.css",
+      "css/views/mkt/pre-order.css",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/industryPackage.js",
+      "js/views/mkt/payment.js",
+      "js/views/mkt/banbanpay.js",
+      "img/views/mkt/1.1img/newsresouce.png",
+      "img/views/mkt/1.1img/about.png"
+    ],
+    "refer": [
+      "views/mkt/meindustry.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/invoice.html": {
+    "href": "views/mkt/invoice.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/invoice.css",
+      "css/views/mkt/iframe.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/writearticles.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/mkt/writearticles.html": {
+    "href": "views/mkt/writearticles.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/writearticles.css",
+      "css/views/mkt/invoice.css",
+      "css/views/mkt/pre-order.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/require-mkt.js",
+      "js/views/mkt/writearticles.js",
+      "js/views/mkt/payment.js",
+      "js/views/mkt/banbanpay.js"
+    ],
+    "refer": [
+      "views/mkt/invoice.html"
+    ],
+    "priority": 0
+  },
+  "views/mkt/order-type.html": {
+    "href": "views/mkt/order-type.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/mkt/related-in.css",
+      "css/views/mkt/order.css",
+      "css/views/mkt/pre-order.css",
+      "css/views/mkt/packagedt.css",
+      "css/views/mkt/wx-sina-media-detail.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/mkt/require-mkt.js",
+      "js/views/mkt/order.js",
+      "img/views/mkt/1.1img/write.png",
+      "img/views/mkt/1.1img/package.png",
+      "img/views/mkt/1.1img/main.png",
+      "img/views/mkt/No-order.png",
+      "js/views/mkt/payment.js",
+      "js/views/mkt/banbanpay.js"
+    ],
+    "refer": [
+      "views/mkt/order-subdt.html",
+      "views/mkt/media-detail.html",
+      "views/mkt/order-view-dt.html",
+      "views/mkt/order-linkdt.html",
+      "views/mkt/pre-order.html",
+      "views/mkt/order-view-deta.html",
+      "views/mkt/packagedt.html",
+      "views/mkt/order.html"
+    ],
+    "priority": 0
+  },
+  "views/crm/productInfoDetail.html": {
+    "href": "views/crm/productInfoDetail.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/crm/index.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/crm/product.js",
+      "img/views/crm/product.png"
+    ],
+    "refer": [
+      "views/crm/productInfoDetail.html"
+    ],
+    "priority": 0
+  },
+  "views/flows/download.html": {
+    "href": "views/flows/download.html",
+    "priority": 0
+  },
+  "views/flows/index.html": {
+    "href": "views/flows/index.html",
+    "resources": [
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "css/light7.min.css",
+      "css/views/desk/index.css",
+      "css/views/flow/myapproval.css",
+      "css/views/flow/flows.css",
+      "css/views/flow/common_mobile.css",
+      "css/views/flow/flow_mobile.css",
+      "js/views/flows/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/flows/draft.html": {
+    "href": "views/flows/draft.html",
+    "priority": 0
+  },
+  "views/flows/myapproval1.html": {
+    "href": "views/flows/myapproval1.html",
+    "priority": 0
+  },
+  "views/flows/myapply.html": {
+    "href": "views/flows/myapply.html",
+    "priority": 0
+  },
+  "views/crm/marketActivityDetail.html": {
+    "href": "views/crm/marketActivityDetail.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/crm/index.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/crm/market.js",
+      "img/views/Me/me.png",
+      "img/views/crm/activity.png",
+      "img/views/Me/Male-head.png",
+      "img/views/crm/enterprise.png"
+    ],
+    "refer": [
+      "views/crm/marketActivityDetail.html"
+    ],
+    "priority": 0
+  },
+  "views/IM/guidance.html": {
+    "href": "views/IM/guidance.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/index.js",
+      "img/views/desk/Mac.png",
+      "img/views/desk/1.png",
+      "img/views/desk/2.png",
+      "img/views/desk/3.png",
+      "img/views/desk/4.png",
+      "img/views/desk/5.png",
+      "img/views/desk/6.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/IM/Assistant.html": {
+    "href": "views/IM/Assistant.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/common.css",
+      "css/views/IM/index.css",
+      "css/views/address-list/addressAll.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/IM/index.js",
+      "img/views/desk/Novice-essential.png"
+    ],
+    "refer": [
+      "views/IM/guidance.html"
+    ],
+    "priority": 0
+  },
+  "views/checkon/calendardetail.html": {
+    "href": "views/checkon/calendardetail.html",
+    "resources": [
+      "css/views/checkon/calendar.css",
+      "css/views/checkon/deptcalendar.css",
+      "css/views/checkon/index.css",
+      "css/views/checkon/calendardetail.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/checkon/checkon.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "views/login/agreement.html": {
+    "href": "views/login/agreement.html",
+    "resources": [
+      "css/light7.min.css",
+      "css/views/login/index.css",
+      "css/views/login/login.css",
+      "js/requirejs2.0.min.js",
+      "js/requirejs.config.js",
+      "js/views/login/index.js"
+    ],
+    "refer": [],
+    "priority": 0
+  }
+}

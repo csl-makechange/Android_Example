@@ -1,0 +1,141 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="test.bounb.banban">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="getui.permission.GetuiService.test.bounb.banban" />
+    <permission android:name="getui.permission.GetuiService.test.bounb.banban" android:protectionLevel="normal" />
+    <application android:theme="@style/DCloudTheme" android:label="@string/app_name" android:icon="@drawable/icon" android:name="io.dcloud.application.DCloudApplication" android:allowClearUserData="true" android:allowBackup="false" android:hardwareAccelerated="true" android:largeHeap="true">
+        <activity android:name="io.dcloud.PandoraEntry" android:configChanges="orientation|keyboardHidden|keyboard|navigation" android:label="@string/app_name" android:launchMode="singleTask" android:hardwareAccelerated="true" android:theme="@style/TranslucentTheme" android:screenOrientation="user" android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="io.dcloud.PandoraEntryActivity" android:configChanges="orientation|keyboardHidden|screenSize|keyboard|navigation|mcc|mnc|fontScale" android:hardwareAccelerated="true" android:label="@string/app_name" android:launchMode="singleTask" android:screenOrientation="user" android:theme="@style/DCloudTheme" android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="test.bounb.banban" />
+            </intent-filter>
+        </activity>
+        <service android:name="io.dcloud.common.adapter.io.MiniServerService" android:exported="true"/>
+        <activity android:theme="@style/DCloudTheme" android:name="io.dcloud.imagepick.CustomGalleryActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="io.dcloud.ACTION_PICK" />
+                <action android:name="io.dcloud.ACTION_MULTIPLE_PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.alipay.sdk.app.H5PayActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.alipay.sdk.auth.AuthActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation" />
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="%高德地图key%" />
+        <meta-data android:name="PUSH_APPID" android:value="%个推——appid%" />
+        <meta-data android:name="PUSH_APPKEY" android:value="个推——appkey" />
+        <meta-data android:name="PUSH_APPSECRET" android:value="个推——appsecret" />
+        <service android:label="NotificationCenter" android:name="com.igexin.sdk.PushService" android:exported="true" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.igexin.sdk.PushReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.igexin.sdk.PushActivity" android:exported="false" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.igexin.sdk.GActivity" android:exported="true" android:process=":pushservice" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+        <service android:name="com.igexin.download.DownloadService" android:process=":pushservice" />
+        <receiver android:name="com.igexin.download.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.igexin.download.DownloadProvider" android:exported="true" android:process=":pushservice" android:authorities="downloads.test.bounb.banban" />
+        <receiver android:name="io.dcloud.feature.apsGt.GTNotificationReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="test.bounb.banban.__CREATE_NOTIFICATION" />
+                <action android:name="test.bounb.banban.__REMOVE_NOTIFICATION" />
+                <action android:name="test.bounb.banban.__CLEAR_NOTIFICATION" />
+                <action android:name="test.bounb.banban.__CLILK_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+        <service android:name="io.dcloud.feature.apsGt.GTNormalIntentService" />
+        <service android:label="PushService" android:name="io.dcloud.feature.apsGt.GTNormalPushService" android:exported="true" android:process=":pushservice" />
+        <meta-data android:name="QQ_APPID" android:value="%QQ_Appid%" />
+        <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="singleTask" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent%QQ_Appid%" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" />
+        <meta-data android:name="WX_SECRET" android:value="%微信——secret%" />
+        <meta-data android:name="WX_APPID" android:value="%微信——appid%" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="test.bounb.banban.wxapi.WXEntryActivity" android:exported="true" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="%微信——secret%" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="SINA_REDIRECT_URI" android:value="%新浪微博——url%" />
+        <meta-data android:name="SINA_SECRET" android:value="%新浪微博——secret%" />
+        <meta-data android:name="SINA_APPKEY" android:value="_%新浪微博——appkey%" />
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="test.bounb.banban.SinaCallbackActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
